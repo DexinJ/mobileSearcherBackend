@@ -7,7 +7,7 @@ import { PORT } from "./config/env.js";
 import { initFirebaseAdmin } from "./auth/firebase.js";
 import { attachRoutes } from "./http/routes.js";
 import { attachChatGateway } from "./ws/chatGateway.js";
-import { initDb } from "./db/initDB.js";
+import { initDb } from "./db/initDb.js";
 
 initFirebaseAdmin();
 
